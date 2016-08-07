@@ -15,6 +15,15 @@ a {
   a:hover {
     text-decoration: underline; }
 
+div{
+  height:400px;writing-mode:tb-rl;
+  width:100%;
+  writing-mode: vertical-rl;
+  -webkit-writing-mode: vertical-rl;/* float:right; div靠右 */ 
+  }
+
+
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
